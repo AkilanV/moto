@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c36cf899.css",
+    "main.js": "/static/js/main.2eed508a.js",
+    "static/js/27.c6e192fa.chunk.js": "/static/js/27.c6e192fa.chunk.js",
+    "static/media/bigstock-Car-Service-72493456.jpg": "/static/media/bigstock-Car-Service-72493456.9414f6df7356dd3e7740.jpg",
+    "static/media/MyGarage.png": "/static/media/MyGarage.c25cd9ac967e138754ca.png",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.c36cf899.css",
+    "static/js/main.2eed508a.js"
+  ]
+}

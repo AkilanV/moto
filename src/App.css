@@ -1,0 +1,385 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.data-table-rows table td, .data-table-rows table th {
+  padding: 0.6rem;
+  border: initial;
+}
+
+#datatableRow{
+  width: 100%;
+}
+
+#datatableRow tr th{
+  background-color: hsl(356deg 72.19% 36.67%);
+  color:white;
+  font-size: 1.3rem;
+}
+
+#datatableRow tr th:first-child{
+  border-top-left-radius: 20px;
+}
+
+#datatableRow tr th:last-child{
+  border-top-right-radius: 20px;
+}
+
+#datatableRow tr td .btn{
+  font-size:1.2rem; 
+}
+
+#datatableRow tr td .btn{
+  font-size:1.2rem; 
+  background-color: hsl(0deg 0% 25.49%); 
+}
+
+#datatableRow tr td button .fa{
+  font-size:18px;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: hsl(207.5deg 97.67% 33.73%);
+  border-color: hsl(207.5deg 97.67% 33.73%);
+}
+
+.ins-status{
+  color:#717171 !important;
+}
+
+.ins-all-btn{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-primary{
+  color: #fff;
+  background-color: hsl(207.5deg 97.67% 33.73%);
+  border-color: hsl(207.5deg 97.67% 33.73%);
+}
+
+.btn-wait-selected{
+  color: #fff !important;
+  background-color: #fda329;
+}
+
+.btn-progress-selected{
+  color: #fff !important;
+  background-color: #d9c100;
+}
+
+.btn-complete-selected{
+  color: #fff !important;
+  background-color: #00b622;
+}
+
+.ins-wait-btn{
+  font-size: 18px;
+  font-weight: bold;
+  color: #fda329;
+  box-shadow: 0 1px 15px rgba(0,0,0,.04), 0 1px 6px rgba(0,0,0,.04) !important;
+  border: 1px solid #ddd;
+}
+
+.ins-progress-btn{
+  font-size: 18px;
+  font-weight: bold;
+  color: #d9c100;
+  box-shadow: 0 1px 15px rgba(0,0,0,.04), 0 1px 6px rgba(0,0,0,.04) !important;
+  border: 1px solid #ddd;
+}
+
+.ins-complete-btn{
+  font-size: 18px;
+  font-weight: bold;
+  color: #00b622;
+  box-shadow: 0 1px 15px rgba(0,0,0,.04), 0 1px 6px rgba(0,0,0,.04) !important;
+  border: 1px solid #ddd;
+}
+
+.ins-wait-text{
+  font-size: 18px;
+  font-weight: bold;
+  color: #fda329;
+}
+
+.ins-progress-text{
+  font-size: 18px;
+  font-weight: bold;
+  color: #d9c100;
+}
+
+.ins-complete-text{
+  font-size: 18px;
+  font-weight: bold;
+  color: #00b622;
+}
+
+.empty-row{
+  height: 25px;
+  padding: 0px !important;
+  background:transparent !important;
+}
+
+.row-border{
+  border-bottom: 1px solid #ececec;
+}
+
+.sidebar-icons{
+  flex-direction: inherit !important;
+}
+
+.sidebar-icons .fa{
+  margin-right:5px !important;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.container{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.background-img-full{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.Login-page .loginclr{
+  background-color:#ffffff94;
+  padding:5px;
+  width: 506px;
+  padding-top: 16px;
+  border-radius: 10px;
+}
+.vvicon{
+  margin-bottom: 5px !important;
+}
+/* .login{
+
+  height: 50px !important;
+  width: 100px !important;
+  margin-left: 100px !important;
+} */
+
+.login button{
+
+width:100%;
+
+}
+.vvinspecticon{
+/* margin-bottom: 50px !important; */
+margin-left: 200px;
+}
+
+.background-img-loc{
+
+  background-repeat:repeat;
+  
+}
+.container1{
+  min-height: 100vh;
+  justify-content: center;
+}
+.ip1 {
+  border-radius: 18px;
+  background: #600;
+  padding: 20px; 
+  width: 200px;
+  height: 15px;    
+}
+.locationname{
+  padding: 5px;
+}
+.locationname button{
+  background-color: hsl(356deg 72.19% 36.67%);
+  border: hsl(356deg 72.19% 36.67%);
+  width:265px;
+  color:#fff;
+  margin-left: -10px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+
+}
+
+.location-wrap h1{
+  font-size: 3rem;
+  color:#184f90;
+}
+.location-wrap h2{
+  
+  color:#184f90;
+
+}
+.text-center mt-5 login-title {
+  font-size: 3.75rem !important;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+.add{
+
+float:right !important;
+background-color: hsl(356deg 72.19% 36.67%);
+
+}
+.add_new_vehicle{
+  background-color: hsl(207.5deg 97.67% 33.73%);
+ 
+  /* background-color: hsl(249, 83%, 61%); */
+}
+.add_new_vehicle h1{
+  color:#fff;
+  text-align: center !important;
+}
+.add_new_vehicle button{
+  color:hsla(0, 83%, 2%, 0.941) !important;
+}
+.add_new_vehicle{
+
+  border-top-left-radius:1.1rem !important;
+  border-top-right-radius:1.1rem !important;
+}
+.modal .modal-content {
+  border: initial;
+  border-radius: 1.1rem !important;
+  background: #fff;
+}
+.btn-wid {
+  width: 100%;
+}
+
+.sign-wid{
+  width: 400px;
+}
+
+.container-wid{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-img-full{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Login-page .card label{
+  font-weight: 500;
+}
+
+.Login-page .card{
+  background-color:#ffffff94;
+}
+
+.error{
+  color:red;
+}
+
+input:invalid{
+  border-color:1px solid red;
+}
+
+.delete_left_p{
+  margin-left:10px
+}
+
+.required-star{
+  color:red;
+}
+.scrollbar-width-auto {
+  scrollbar-width: auto;
+}
+.scrollbar::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+.scrollbar {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
