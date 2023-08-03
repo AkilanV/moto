@@ -1,0 +1,26 @@
+version: 1.0
+name: my-pipeline
+description: Deployment pipeline for vehiclevisuals
+triggers: []
+stages:
+  - name: Deploy
+    workflows:
+      - name: Deploy Service
+        steps:
+          - name: Deploy Kubernetes Service
+            type: K8sSync
+            accountId: my-kubernetes-account
+            manifestText: |
+              apiVersion: v1
+              kind: Service
+              metadata:
+                name: vehiclevisuals
+              spec:
+                selector:
+                  app: client
+                ports:
+                  - port: 80
+                    targetPort: 3000
+                    protocol: TCP
+                type: LoadBalancer
+            waitTimeout: 30
