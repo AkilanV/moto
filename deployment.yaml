@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vehiclevisuals
+  labels:
+    app: client
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: client
+  template:
+    metadata:
+      labels:
+        app: client
+    spec:
+      containers:
+      - name: vehiclevisuals
+        image: akilan10/visuals
+        resources:
+          requests:
+            cpu: "100m"
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 3000
