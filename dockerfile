@@ -5,9 +5,9 @@ FROM node:14-alpine
 WORKDIR /app
 
 # Copy package.json and package-lock.json to the container
-COPY package*.json ./
+COPY package*.json ./ 
 
-# Install required packages
+# Install required packages 
 RUN npm install
 
 # Copy all files to the container
